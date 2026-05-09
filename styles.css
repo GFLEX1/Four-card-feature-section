@@ -1,0 +1,126 @@
+.Over-all {
+    background-color: hsl(0, 0%, 100%);
+    padding: 10%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    padding-right: 5%;
+
+
+}
+
+.section_1 {
+    margin-bottom: 50px;
+}
+
+
+
+.section_2 {
+    box-shadow: 0px 15px 10px hsl(212, 6%, 85%);
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-right: 30px;
+    border-radius: 10px;
+    border-top: 5px solid hsl(180, 62%, 55%);
+    margin-bottom: 50px;
+
+}
+
+.eyes-img {
+    text-align: end;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.container_2 {
+    box-shadow: 0px 15px 10px hsl(212, 6%, 85%);
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-right: 30px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    border-top: 5px solid hsl(0, 78%, 62%);
+
+}
+
+.house {
+    padding-bottom: 35px;
+    padding-top: 10px;
+    text-align: end;
+    padding-right: 5px;
+}
+
+.container_3 {
+    box-shadow: 0px 15px 10px hsl(212, 6%, 85%);
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-right: 30px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    border-top: 5px solid hsl(34, 97%, 64%);
+}
+
+.bulb {
+    text-align: end;
+    padding-bottom: 35px;
+    padding-top: 5px;
+
+}
+
+.container_4 {
+    box-shadow: 0px 15px 10px hsl(212, 6%, 85%);
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-right: 30px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    border-top: 5px solid hsl(212, 86%, 64%);
+}
+
+
+.house_2 {
+    text-align: end;
+    padding-bottom: 40px;
+    padding-top: 10px;
+}
+
+
+@media(min-width:30rem){
+
+    .Over-all{
+        display:grid;
+        grid-template-columns:repeat(3, 1fr);
+        grid-template-rows:auto auto;
+        gap:30px;
+        align-items:center;
+    }
+
+    .section_1{
+        grid-column:1/4;
+        text-align:center;
+        width:40%;
+        margin:auto;
+        margin-bottom:50px;
+    }
+
+    .section_2{
+        grid-column:1; 
+        grid-row:2/4; 
+    }
+
+    .container_2{ 
+        grid-column:2;
+        grid-row:2;
+    }
+
+    .container_3{
+        grid-column:2;
+        grid-row:3;
+    }
+
+    .container_4{
+        grid-column:3;
+        grid-row:2/4;
+    } 
+
+} 
